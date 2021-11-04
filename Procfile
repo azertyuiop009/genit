@@ -1,1 +1,1 @@
-node gen.mjs
+node index.js
