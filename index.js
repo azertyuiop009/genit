@@ -1,10 +1,10 @@
-import fetch from 'node-fetch';
-import WebSocket from 'ws';
-import fs from 'fs';
-import url from 'url';
-import proxyAgent from 'https-proxy-agent';
-import axios from 'axios';
-import { parse } from './parse.js'
+const fetch = require('node-fetch');
+const WebSocket = require('ws');
+const fs = require('fs');
+const url = require('url');
+const proxyAgent = require('https-proxy-agent');
+const axios = require('axios');
+const { parse } = require('./parse.js')
 
 const serverAdress = "wss://bboattata.herokuapp.com/"
 
